@@ -1,6 +1,6 @@
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main1(args: Array<String>) {
     println("Good ${ if (args[0].toInt() < 12) "morning" else "night"}, Kotlin! ")
     feedTheFish()
     eagerExample()

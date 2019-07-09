@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main2(args: Array<String>) {
     //println("Good ${ if (args[0].toInt() < 12) "morning" else "night"}, Kotlin! ")
     //feedTheFish()
     print("Enter your birthday: ")
