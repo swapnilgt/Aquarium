@@ -22,11 +22,20 @@ fun createSpice() {
             Spice("hot pepper", "extremely spicy")
     )
 
-    val mySpice = Spice("curcuma", "spicy")*/
+    val mySpice = Spice("curcuma", "spicy")
+
+    val spicelist = spices1.filter {it.heat < 5}
+    */
 
     //println("${mySpice.name} ${mySpice.heat}")
 
     //val salt = makeSalt()
+}
+
+fun feedFish(fish: FishAction) {
+
+    // make some food then
+    fish.eat()
 }
 
 fun buildAquarium() {
@@ -63,6 +72,6 @@ fun makeFish() {
 
     println("Shark: ${shark.color} \n Plecostomus: ${pleco.color}")
 
-    shark.eat()
-    pleco.eat()
+    feedFish(shark)
+    feedFish(pleco)
 }
